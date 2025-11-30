@@ -1,0 +1,15 @@
+# Copy this file to .env and fill in your credentials
+
+# OpenAI Configuration (Required)
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4o
+
+# Langfuse Configuration (Optional - for tracing)
+LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
+LANGFUSE_SECRET_KEY=your_langfuse_secret_key
+LANGFUSE_HOST=https://cloud.langfuse.com
+
+# Data Configuration
+DATA_PATH=synthetic_fb_ads_undergarments.csv
+OUTPUT_DIR=output
+
